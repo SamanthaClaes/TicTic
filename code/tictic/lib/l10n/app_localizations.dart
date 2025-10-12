@@ -124,6 +124,54 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Create an account'**
   String get createAccount;
+
+  /// No description provided for @labelFirstName.
+  ///
+  /// In en, this message translates to:
+  /// **'First Name'**
+  String get labelFirstName;
+
+  /// No description provided for @labelName.
+  ///
+  /// In en, this message translates to:
+  /// **'Name'**
+  String get labelName;
+
+  /// No description provided for @labelMail.
+  ///
+  /// In en, this message translates to:
+  /// **'email'**
+  String get labelMail;
+
+  /// No description provided for @labelPassword.
+  ///
+  /// In en, this message translates to:
+  /// **'password'**
+  String get labelPassword;
+
+  /// No description provided for @placeHolderFirstName.
+  ///
+  /// In en, this message translates to:
+  /// **'Alex'**
+  String get placeHolderFirstName;
+
+  /// No description provided for @placeHolderName.
+  ///
+  /// In en, this message translates to:
+  /// **'Duchant'**
+  String get placeHolderName;
+
+  /// No description provided for @placeHolderMail.
+  ///
+  /// In en, this message translates to:
+  /// **'example@mail.com'**
+  String get placeHolderMail;
+
+  /// No description provided for @placeHolderPw.
+  ///
+  /// In en, this message translates to:
+  /// **'****'**
+  String get placeHolderPw;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

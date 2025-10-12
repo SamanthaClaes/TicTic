@@ -1,6 +1,9 @@
 const kLogoSizeWelcome = 150.0;
 const kVerticalSpacing = 20.0;
 const kTextSliderHeight = 60.0;
+const kWidthInput = 350.0;
+const kHeightInput = 40.0;
+const kLabelMargin = 25.0;
 
 const kHorizontalPaddingS = kHorizontalPadding / 2;
 const kVerticalPaddingS = kVerticalPadding / 2;
@@ -19,5 +22,7 @@ const kVerticalPaddingXL = kVerticalPaddingL * 2;
 
 const kHorizontalPaddingXXL = kHorizontalPaddingXL * 2;
 const kVerticalPaddingXXL = kVerticalPaddingXL * 2;
+
+
 
 

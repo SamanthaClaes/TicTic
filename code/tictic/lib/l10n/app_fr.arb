@@ -3,5 +3,14 @@
   "connect": "Je me connecte ",
   "noAccount": "Continuer sans compte",
   "or": "Ou",
-  "createAccount": "Créer mon compte"
+  "createAccount": "Créer mon compte",
+  "labelFirstName": "Prénom",
+  "labelName": "Nom",
+  "labelMail": "Adresse mail",
+  "labelPassword": "Mot de passe",
+  "placeHolderFirstName": "Alex",
+  "placeHolderName": "Duchant",
+  "placeHolderMail": "example@mail.com",
+  "placeHolderPw": "****"
+
 }

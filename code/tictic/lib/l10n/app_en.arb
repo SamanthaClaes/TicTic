@@ -3,5 +3,13 @@
   "connect": "Log in",
   "noAccount": "Continue as guest",
   "or": "Or",
-  "createAccount": "Create an account"
+  "createAccount": "Create an account",
+  "labelFirstName": "First Name",
+  "labelName": "Name",
+  "labelMail": "email",
+  "labelPassword": "password",
+  "placeHolderFirstName": "Alex",
+  "placeHolderName": "Duchant",
+  "placeHolderMail": "example@mail.com",
+  "placeHolderPw": "****"
 }

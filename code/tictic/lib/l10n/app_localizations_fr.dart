@@ -22,4 +22,28 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get createAccount => 'Créer mon compte';
+
+  @override
+  String get labelFirstName => 'Prénom';
+
+  @override
+  String get labelName => 'Nom';
+
+  @override
+  String get labelMail => 'Adresse mail';
+
+  @override
+  String get labelPassword => 'Mot de passe';
+
+  @override
+  String get placeHolderFirstName => 'Alex';
+
+  @override
+  String get placeHolderName => 'Duchant';
+
+  @override
+  String get placeHolderMail => 'example@mail.com';
+
+  @override
+  String get placeHolderPw => '****';
 }
