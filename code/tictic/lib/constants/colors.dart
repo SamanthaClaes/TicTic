@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tictic/constants/fonts.dart';
 
-import 'fonts.dart';
-
 const kMainColor = Color.fromRGBO(52, 78, 65, 1);
 const kSecondaryColor = Color.fromRGBO(88, 129, 87, 1);
 const kTertiaryColor = Color.fromRGBO(163, 177, 138, 1);

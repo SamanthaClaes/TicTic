@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         GlobalWidgetsLocalizations.delegate, // widgets génériques
         GlobalCupertinoLocalizations.delegate, // iOS widgets
       ],
-      supportedLocales: [const Locale('en'), const Locale('fr')],
+      supportedLocales: [const Locale('fr'), Locale('en')],
       theme: kAppTheme,
     );
   }

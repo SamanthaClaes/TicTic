@@ -57,7 +57,7 @@ class Welcome extends StatelessWidget {
                         onPressed: () {
                           Navigator.pushNamed(context, Register.routeName);
                         },
-                        child: Text(AppLocalizations.of(context)!.createAccount),
+                          child: Text(AppLocalizations.of(context)!.createAccount),
                       ),
                     ],
                   ),

@@ -17,6 +17,7 @@ class Register extends StatefulWidget {
 
 class _RegisterState extends State<Register> {
   final _formKey = GlobalKey<FormState>();
+   bool  _obscureText = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -70,8 +71,8 @@ class _RegisterState extends State<Register> {
                           child:
                           TextFormField(
                             decoration: InputDecoration(
-                              fillColor: kBackgroundColor,
-                              labelText: AppLocalizations.of(context)!.placeHolderFirstName
+                                fillColor: kBackgroundColor,
+                                labelText: AppLocalizations.of(context)!.placeHolderFirstName
                             ),
                           ),
                         ),
@@ -110,8 +111,8 @@ class _RegisterState extends State<Register> {
                           height: kHeightInput,
                           child: TextFormField(
                             decoration:  InputDecoration(
-                              labelText: AppLocalizations.of(context)!.placeHolderMail,
-                              fillColor: kBackgroundColor
+                                labelText: AppLocalizations.of(context)!.placeHolderMail,
+                                fillColor: kBackgroundColor
                             ),
                           ),
                         ),
@@ -129,9 +130,18 @@ class _RegisterState extends State<Register> {
                           width: kWidthInput,
                           height: kHeightInput,
                           child: TextFormField(
+                            obscureText: _obscureText,
                             decoration:  InputDecoration(
                               labelText: AppLocalizations.of(context)!.placeHolderPw,
                               fillColor: kBackgroundColor,
+                              suffixIcon: IconButton(
+                                icon: Icon(_obscureText ? Icons.visibility_off : Icons.visibility),
+                                onPressed: (){
+                                  setState(() {
+                                    _obscureText = !_obscureText;
+                                  });
+                                },
+                              )
                             ),
                           ),
                         ),
